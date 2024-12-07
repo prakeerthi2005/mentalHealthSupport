@@ -1,0 +1,85 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body img {
+  border-radius: 10px;
+}
+
+/* Key Features section */
+.fs-2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fs-7 {
+  font-size: 0.875rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 2rem;
+}
+
+.col-md-6 {
+  padding: 10px;
+}
+
+/* Navbar and button styles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
